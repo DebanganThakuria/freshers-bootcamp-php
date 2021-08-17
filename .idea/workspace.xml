@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aff9e69d-353d-44ac-a0c6-a1510a6a1084" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Day1/ArrayFlatten.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/CamelCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/JsonDecode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day1/MaskPhoneNumber.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1wqnXbj4NDLi9IICc4RsT4cmDyQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.JsonDecode.php">
+    <configuration name="ArrayFlatten.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/ArrayFlatten.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="CamelCase.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/CamelCase.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="JsonDecode.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/JsonDecode.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="MaskPhoneNumber.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/MaskPhoneNumber.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.JsonDecode.php" />
+        <item itemvalue="PHP Script.MaskPhoneNumber.php" />
+        <item itemvalue="PHP Script.CamelCase.php" />
+        <item itemvalue="PHP Script.ArrayFlatten.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aff9e69d-353d-44ac-a0c6-a1510a6a1084" name="Default Changelist" comment="" />
+      <created>1629195028678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629195028678</updated>
+      <workItem from="1629195031407" duration="1835000" />
+      <workItem from="1629196957649" duration="6511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="308" y="109" key="#CLI_Interpreters" timestamp="1629197700700">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="109" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1629197700700" />
+    <state x="394" y="97" key="#PHP" timestamp="1629197704757">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="394" y="97" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1629197704757" />
+    <state width="1398" height="710" key="GridCell.Tab.0.bottom" timestamp="1629203475709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629203475709" />
+    <state width="1398" height="710" key="GridCell.Tab.0.center" timestamp="1629203475707">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1629203475707" />
+    <state width="1398" height="710" key="GridCell.Tab.0.left" timestamp="1629203475707">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1629203475707" />
+    <state width="1398" height="710" key="GridCell.Tab.0.right" timestamp="1629203475708">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1629203475708" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1629198395511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629198395511" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1629198395510">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1629198395510" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1629198395509">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1629198395509" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1629198395511">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1629198395511" />
+    <state x="540" y="377" key="NewPhpFileDialog" timestamp="1629200017873">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="540" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1629200017873" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1629196506264">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1629196506264" />
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1629198384162">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1629198384162" />
+  </component>
+</project>
