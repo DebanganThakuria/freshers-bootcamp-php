@@ -1,6 +1,5 @@
 <?php
 declare(strict_types=1);
-namespace Day1;
 
 /*
  * This file is part of the freshers-bootcamp-php, Day 1 exercises
@@ -10,7 +9,7 @@ namespace Day1;
 
 $multiDimArray = array(2, 3, array(4, 5), array(6, 7), 8);
 
-function flatten($inputArray)
+function flatten($inputArray) : array
 {
     $singleDimArray = [];
     foreach ($inputArray as $array)

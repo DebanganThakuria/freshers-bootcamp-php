@@ -1,6 +1,5 @@
 <?php
 declare(strict_types=1);
-namespace Day1;
 
 /*
  * This file is part of the freshers-bootcamp-php, Day 1 exercises
@@ -10,12 +9,15 @@ namespace Day1;
 
 $snakeCase = ["snake_case", "camel_case"];
 
-$camelCase = [];
-
-for ($i = 0; $i < count($snakeCase); $i ++)
+function convert($input) : array
 {
-    $resultString = lcfirst(implode('', array_map('ucfirst', explode('_', $snakeCase[$i]))));
-    array_push($camelCase, $resultString);
+    $camelCase = [];
+    for ($i = 0; $i < count($input); $i ++)
+    {
+        $resultString = lcfirst(implode('', array_map('ucfirst', explode('_', $input[$i]))));
+        array_push($camelCase, $resultString);
+    }
+    return $camelCase;
 }
 
-var_dump($camelCase);
+var_dump(convert($snakeCase));

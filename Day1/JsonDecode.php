@@ -1,6 +1,5 @@
 <?php
 declare(strict_types=1);
-namespace Day1;
 
 /*
  * This file is part of the freshers-bootcamp-php, Day 1 exercises
@@ -12,6 +11,7 @@ $json = "{\"players\":[{\"name\":\"Ganguly\",\"age\":45,\"address\":{\"city\":\"
 
 $data = json_decode($json, TRUE);
 
+// Get names, age, city
 $names = [];
 $ages = [];
 $cities = [];
@@ -26,10 +26,12 @@ foreach ($data["players"] as $val)
 echo "Names, Age and City\n";
 print_r($names); print_r($ages); print_r($cities);
 
+// Get unique names
 $uniqueNames = array_unique($names);
 echo "All unique names:\n";
 print_r($uniqueNames);
 
+// Get persons with max age
 $maxAge = max($ages);
 $maxAgePersons = [];
 foreach($data["players"] as $val)
