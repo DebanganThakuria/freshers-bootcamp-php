@@ -14,13 +14,13 @@ class PersonController extends Controller
         $this->personService = $personService;
     }
 
-    public function CreatePerson(Request $request)
+    public function createPerson(Request $request)
     {
-        return $this->personService->Create($request);
+        return $this->personService->create($request);
     }
 
-    public function GetAllPerson()
+    public function getAllPerson()
     {
-        return $this->personService->Read();
+        return $this->personService->read();
     }
 }

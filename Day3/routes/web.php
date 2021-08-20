@@ -21,13 +21,13 @@ Route::get('/', function () {
 });
 
 // Person Routes
-Route::post('/persons', [PersonController::class, 'CreatePerson']);
-Route::get('/persons', [PersonController::class, 'GetAllPerson']);
+Route::post('/persons', [PersonController::class, 'createPerson']);
+Route::get('/persons', [PersonController::class, 'getAllPerson']);
 
 // Post Routes
-Route::get('/posts/{id}', [PostController::class, 'GetAllPostsByPerson']);
-Route::post('/posts', [PostController::class, 'CreatePost']);
+Route::get('/persons/{id}/posts', [PostController::class, 'getAllPostsByPerson']);
+Route::post('/persons/{id}/posts', [PostController::class, 'createPost']);
 
 // Comments Routes
-Route::get('/posts/{id}/comments', [CommentController::class, 'GetAllCommentsOnAPost']);
-Route::post('/posts/{id}/comments', [CommentController::class, 'CreateComment']);
+Route::get('/posts/{id}/comments', [CommentController::class, 'getAllCommentsOnAPost']);
+Route::post('/posts/{id}/comments', [CommentController::class, 'createComment']);

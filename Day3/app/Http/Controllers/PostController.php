@@ -15,13 +15,13 @@ class PostController extends Controller
         $this->postService = $postService;
     }
 
-    public function CreatePost(Request $request)
+    public function createPost(Request $request)
     {
-        return $this->postService->Create($request);
+        return $this->postService->create($request);
     }
 
-    public function GetAllPostsByPerson(Person $id)
+    public function getAllPostsByPerson(Person $id)
     {
-        return $this->postService->Read($id);
+        return $this->postService->read($id);
     }
 }

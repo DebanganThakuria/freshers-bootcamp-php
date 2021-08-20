@@ -15,13 +15,13 @@ class CommentController extends Controller
         $this->commentService = $commentService;
     }
 
-    public function CreateComment(Request $request)
+    public function createComment(Request $request)
     {
-        return $this->commentService->Create($request);
+        return $this->commentService->create($request);
     }
 
-    public function GetAllCommentsOnAPost(Post $id)
+    public function getAllCommentsOnAPost(Post $id)
     {
-        return $this->commentService->Read($id);
+        return $this->commentService->read($id);
     }
 }
