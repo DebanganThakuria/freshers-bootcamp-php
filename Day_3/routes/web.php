@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PersonController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\CommentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +20,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+// Person Routes
+Route::post('/persons', [PersonController::class, 'CreatePerson']);
+Route::get('/persons', [PersonController::class, 'GetAllPerson']);
+
+// Post Routes
+Route::get('/posts/{id}', [PostController::class, 'GetAllPostsByPerson']);
+Route::post('/posts', [PostController::class, 'CreatePost']);
+
+// Comments Routes
+Route::get('/posts/{id}/comments', [CommentController::class, 'GetAllCommentsOnAPost']);
+Route::post('/posts/{id}/comments', [CommentController::class, 'CreateComment']);
