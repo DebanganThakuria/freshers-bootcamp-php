@@ -11,9 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aff9e69d-353d-44ac-a0c6-a1510a6a1084" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/freshers-bootcamp-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/freshers-bootcamp-php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/.env.example" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7..4.22">
     <include_path>
       <path value="$PROJECT_DIR$/Day2/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/Day2/vendor/psr/http-message" />
@@ -149,10 +151,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -160,25 +163,34 @@
       <recent name="$PROJECT_DIR$/Day1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.ArrayFlatten.php">
-    <configuration name="ArrayFlatten.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/ArrayFlatten.php">
+  <component name="RunManager" selected="PHPUnit.PersonTest">
+    <configuration name="ExampleTest.test_example" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExampleTest" file="$PROJECT_DIR$/Day3/tests/Feature/ExampleTest.php" method="test_example" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="CamelCase.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/CamelCase.php">
+    <configuration name="PersonTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PersonTest" file="$PROJECT_DIR$/Day3/tests/Feature/PersonTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="JsonDecode.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/JsonDecode.php">
+    <configuration name="PersonTest.test_createPerson" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PersonTest" file="$PROJECT_DIR$/Day3/tests/Feature/PersonTest.php" method="test_createPerson" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="MaskPhoneNumber.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Day1/MaskPhoneNumber.php">
+    <configuration name="PersonTest.test_createPersonSafe" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PersonTest" file="$PROJECT_DIR$/Day3/tests/Feature/PersonTest.php" method="test_createPersonSafe" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PersonTest.test_getAllPersonSafe" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\PersonTest" file="$PROJECT_DIR$/Day3/tests/Feature/PersonTest.php" method="test_getAllPersonSafe" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.ArrayFlatten.php" />
-        <item itemvalue="PHP Script.CamelCase.php" />
-        <item itemvalue="PHP Script.MaskPhoneNumber.php" />
-        <item itemvalue="PHP Script.JsonDecode.php" />
+        <item itemvalue="PHPUnit.PersonTest" />
+        <item itemvalue="PHPUnit.PersonTest.test_getAllPersonSafe" />
+        <item itemvalue="PHPUnit.PersonTest.test_createPersonSafe" />
+        <item itemvalue="PHPUnit.ExampleTest.test_example" />
+        <item itemvalue="PHPUnit.PersonTest.test_createPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +208,9 @@
       <workItem from="1629208460400" duration="852000" />
       <workItem from="1629295134114" duration="726000" />
       <workItem from="1629362860562" duration="2417000" />
-      <workItem from="1629370139856" duration="4152000" />
+      <workItem from="1629370139856" duration="8134000" />
+      <workItem from="1629434818762" duration="30149000" />
+      <workItem from="1629468244767" duration="1168000" />
     </task>
     <servers />
   </component>
@@ -216,30 +230,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="109" key="#CLI_Interpreters" timestamp="1629197700700">
+    <state x="308" y="109" key="#CLI_Interpreters" timestamp="1629464499177">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="109" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1629197700700" />
+    <state x="308" y="109" key="#CLI_Interpreters/0.0.1440.900@0.0.1440.900" timestamp="1629464499177" />
     <state x="394" y="97" key="#PHP" timestamp="1629197704757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="394" y="97" key="#PHP/0.0.1440.900@0.0.1440.900" timestamp="1629197704757" />
-    <state width="1398" height="710" key="GridCell.Tab.0.bottom" timestamp="1629209313338">
+    <state x="320" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629450253668">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="710" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629209313338" />
-    <state width="1398" height="710" key="GridCell.Tab.0.center" timestamp="1629209313336">
+    <state x="320" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1629450253668" />
+    <state x="414" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1629442548064">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="710" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1629209313336" />
-    <state width="1398" height="710" key="GridCell.Tab.0.left" timestamp="1629209313335">
+    <state x="414" y="21" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1629442548063" />
+    <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1629462604239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="710" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1629209313335" />
-    <state width="1398" height="710" key="GridCell.Tab.0.right" timestamp="1629209313337">
+    <state x="458" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1629462604239" />
+    <state width="1398" height="710" key="GridCell.Tab.0.bottom" timestamp="1629469395841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="710" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1629209313337" />
+    <state width="1398" height="710" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1629469395841" />
+    <state width="1398" height="710" key="GridCell.Tab.0.center" timestamp="1629469395841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1629469395841" />
+    <state width="1398" height="710" key="GridCell.Tab.0.left" timestamp="1629469395840">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1629469395840" />
+    <state width="1398" height="710" key="GridCell.Tab.0.right" timestamp="1629469395841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="710" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1629469395841" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1629203865152">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -256,21 +282,24 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1629203865151" />
-    <state x="540" y="377" key="NewPhpFileDialog" timestamp="1629200017873">
+    <state x="540" y="377" key="NewPhpFileDialog" timestamp="1629438284877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="540" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1629200017873" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1629204091383">
+    <state x="540" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1629438284877" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1629468061614">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1629204091383" />
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1629468061614" />
     <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1629204195369">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1629204195369" />
-    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1629198384162">
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1629452123138">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1629198384162" />
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1629452123138" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/freshers_bootcamp_php@ExampleTest_test_example.xml" NAME="ExampleTest.test_example Coverage Results" MODIFIED="1629464611232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

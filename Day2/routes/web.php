@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PersonController;
+use App\Http\Controllers\Person;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +22,7 @@ Route::get('db_health', function () {
     return view('db_test');
 });
 
-Route::post('/persons', [PersonController::class, 'createPerson']);
-Route::get('/persons', [PersonController::class, 'getAllPersons']);
-Route::get('/persons/{id}', [PersonController::class,'getPersonById']);
-Route::delete('/persons/{id}', [PersonController::class,'deletePerson']);
+Route::post('/persons', [Person::class, 'createPerson']);
+Route::get('/persons', [Person::class, 'getAllPersons']);
+Route::get('/persons/{id}', [Person::class,'getPersonById']);
+Route::delete('/persons/{id}', [Person::class,'deletePerson']);
